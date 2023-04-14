@@ -1,2 +1,2 @@
-# CPQ.github.io
+# CPQ
 CPQ release notes
