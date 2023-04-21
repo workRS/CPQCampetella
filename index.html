@@ -85,17 +85,17 @@
 	<ul>
 		<li><i>Custom item</i> come optional</li>
 		<li>corretta la dicitura della configurazione del robot</li>
-		<li>corretta descrizione delle trasmissioni sui robot</li>
+		<li>corretta la descrizione delle trasmissioni sui robot</li>
 		<li>PLC a prezzo 0 sulle Modula (è sempre attivato per gestire l'asse di scarico ed eventuali tavole rotanti dell'alimentatore etichette)</li>
 		<li>nascosta la categoria <i>ENG notes to Sales</i> nella Data Collection</li>
-		<li>sul form CRM della quote, aggiunto nelle Sales information a destra, il campo <i style="color:rgb(112, 48, 160);">Quote notes</i> (non viene stampato in offerta, è solo un campo note interno)</li>
+		<li>sul form CRM della quote, aggiunto nelle Sales information a destra, il campo <i style="color:rgb(112, 48, 160);">Quote notes</i> (non viene stampato in offerta, è solo un campo appunti interno)</li>
 	</ul>
 	<br>
 	<a class="esempi">CUSTOM ITEM OPTIONAL</a>
 	<p>È possibile selezionare i prodotti diversi dai robot come opzionali mettendo la spunta nel campo <i style="color:rgb(112, 48, 160);">Optional</i> sulla riga corrispondente all'interno del gruppo.</p>
 	<img src="https://workrs.github.io/CPQ/Foto/optional_product.png" style="max-width:1000px;max-height:250px;"/>
-	<p>Nelle colonne dell'<i>ENG Price</i> e del <i>Sales Price</i> vengono mostrati i prezzi per intero ma nei totali, il costo delle righe opzionali non verranno conteggiate e nell'offerta i prezzi degli articoli opzionali appariranno tra parentesi (come accade per i componenti ozopnali del robot).
-	<br>Stessa cosa avviene nella prodocut overview.</p>
+	<p>Nelle colonne dell'<i>ENG Price</i> e del <i>Sales Price</i>, sulle singole righe vengono mostrati i prezzi ma nei totali, non verranno conteggiate e nell'offerta i prezzi degli articoli opzionali appariranno tra parentesi (come accade per i componenti ozopnali del robot).
+	<br>Stessa cosa avviene nella product overview.</p>
 	<br>
 	<br>
 	<h3>4.2	- 28/03/2023</h3>
@@ -130,7 +130,7 @@
 	<a class="correzioni">CORREZIONI & AGGIUNTE</a>
 	<ul>
 		<li>fixato errore sul calcolo del prezzo dei servizi</li>
-		<li>fixato il rientro a sinistra delle opzioni nel template ENG</li>
+		<li>fixato il rientro a sinistra delle opzionidel robot nel template ENG</li>
 		<li>possibile aggiungere il prezzo per la <i>Reference regulation</i></li>
 		<li>nel <i>Custom item</i> è possibile aggiungere una descrizione (apparirà in offerta)</li>
 		<li>possibilità di selezionare alcune opzioni di configurazione del robot come opzionali</li>
@@ -143,9 +143,9 @@
 	<a class="esempi">OPTIONAL</a>
 	<p>Nella configurazione del robot, per alcuni componenti c’è la possibilità di selezionarli come opzionali e non verranno conteggiati nel prezzo finale.</p>
 	<img src="https://workrs.github.io/CPQ/Foto/optional.png">
-	<p>Per questo motivo nella stampa, solo i prezzi opzionali appariranno tra ( ); le parentesi presenti precedentemente sono state eliminate dalle altre righe configurate.</p>
+	<p>Nella stampa, i prezzi opzionali appariranno tra ( ) e le parentesi presenti precedentemente sono state eliminate dalle altre righe configurate.</p>
 	<img src="https://workrs.github.io/CPQ/Foto/optional_stampa.png">
-	<p>Viene inoltre riportata una nota per spiegarlo alla fine della soluzione proposta</p>
+	<p>Alla fine della soluzione proposta, viene riportata una nota per spiegare i prezzi degli optional</p>
 	<img src="https://workrs.github.io/CPQ/Foto/optional_nota.png">
 <br>
 <br>
@@ -253,7 +253,7 @@ Nastri: inseriti i pannelli di controllo Campetella con i relativi prezzi e aggi
 	<br>
 	<img src="https://workrs.github.io/CPQ/Foto/special_request.png">
 	<br>In questo modo si sommerà al prezzo di listino. 
-	<br>Se il prezzo non è di listino, il prezzo và diviso per la % di gestione (es.)
+	<br>Se il prezzo non è di listino ma è quello dell'engineering, questo và diviso per (1-margine di gestione commerciale)
 </p>
 </BODY>
 </html>
