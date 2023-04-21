@@ -84,17 +84,18 @@
 	<a class="correzioni">CORREZIONI & AGGIUNTE</a>
 	<ul>
 		<li><i>Custom item</i> come optional</li>
-		<li>corretta dicitura della configurazione del robot</li>
+		<li>corretta la dicitura della configurazione del robot</li>
 		<li>corretta descrizione delle trasmissioni sui robot</li>
 		<li>PLC a prezzo 0 sulle Modula (è sempre attivato per gestire l'asse di scarico ed eventuali tavole rotanti dell'alimentatore etichette)</li>
-		<li>Nascosta la categoria <i>ENG notes to Sales</i> nella Data Collection</li>
-		<li>sul form CRM della quote, aggiunto nelle Sales information a destra, i campo <i style="color:rgb(112, 48, 160);">Quote notes</i> (non viene stampato in offerta)</li>
+		<li>nascosta la categoria <i>ENG notes to Sales</i> nella Data Collection</li>
+		<li>sul form CRM della quote, aggiunto nelle Sales information a destra, il campo <i style="color:rgb(112, 48, 160);">Quote notes</i> (non viene stampato in offerta, è solo un campo note interno)</li>
 	</ul>
 	<br>
 	<a class="esempi">CUSTOM ITEM OPTIONAL</a>
-	<p>È possibile selezionare i prodotti diversi dai robot come opzionali mettendo la spunta nel campo <i style="color:rgb(112, 48, 160);">Optional</i> sulla riga corrispondente.</p>
-	<img src="https://workrs.github.io/CPQ/Foto/optional_product.png" style="max-width:900px;max-height:250px;"/>
-	<p>Nelle colonne dell'ENG Price e del Sales Price vengono mostrati i prezzi per intero ma nei totali, il costo delle righe opzionali non verranno conteggiate e nell'offerta i prezzi degli articoli opzionali appariranno tra parentesi (come accade per i componenti del robot opzionali)</p>
+	<p>È possibile selezionare i prodotti diversi dai robot come opzionali mettendo la spunta nel campo <i style="color:rgb(112, 48, 160);">Optional</i> sulla riga corrispondente all'interno del gruppo.</p>
+	<img src="https://workrs.github.io/CPQ/Foto/optional_product.png" style="max-width:1000px;max-height:250px;"/>
+	<p>Nelle colonne dell'<i>ENG Price</i> e del <i>Sales Price</i> vengono mostrati i prezzi per intero ma nei totali, il costo delle righe opzionali non verranno conteggiate e nell'offerta i prezzi degli articoli opzionali appariranno tra parentesi (come accade per i componenti ozopnali del robot).
+	<br>Stessa cosa avviene nella prodocut overview.</p>
 	<br>
 	<br>
 	<h3>4.2	- 28/03/2023</h3>
@@ -157,10 +158,10 @@
 	<li>margine commerciale per i robot compreso tra 0% (per gli ordini a distributori) e 50%</li>
 	<li>TEMPLATE DI STAMPA</li>
 	<ul>
-		<li>per la configurazione robot, appaiono le note per supporto robot, contropiastra custom e il colore speciale della struttura</li>
+		<li>per la configurazione robot, appaiono le note per il supporto robot, contropiastra custom e il colore speciale della struttura</li>
 		<li>per i prodotti diversi dai robot, se il prezzo è 0 compare scritto Incl.</li>
 		<li>nelle spedizioni se è selezionato EXW o FCA, compaiono solo incoterms e data di spedizione</li>
-		<li>modificata introduzione iniziale dell’offerta (in inglese) e ringraziamenti nelle condizioni variabili</li>
+		<li>modificata introduzione iniziale dell’offerta (in inglese) e ringraziamenti nelle condizioni variabili (entrambi i template)</li>
 	</ul>
 	</ul>
 	<br>
@@ -183,8 +184,8 @@
 <h3>2.0 - 28/11/2022</h3>
 <a class="prodotti">PRODOTTI</a>
 <P>Phoenix: inseriti negli Sprue picker<br>
+Attrezzaggio IML: aggiunte descrizioni<br>
 Nastri: inseriti i pannelli di controllo Campetella con i relativi prezzi e aggiunto il campo Additional features (sostituisce i campi per la tela e le sponde)<br>
-Attrezzaggio IML: aggiunte descrizioni
 </P>
 	<br>
 	<a class="correzioni">CORREZIONI & AGGIUNTE</a>
@@ -196,24 +197,23 @@ Attrezzaggio IML: aggiunte descrizioni
 		<ul>
 			<li>adeguamento protezioni per le certificazioni delle isole</li>
 			<li>spese del tecnico durante la garanzia</li>
-		<li><i>Customer Request n°</i> non appare se non è valorizzato il campo</li>
 		</ul>
 		<li>TEMPLATE STAMPA</li>
 		<ul>
-			<li>Per i prodotti diversi dai robot, se il prezzo è 0 compare scritto Incl.</li>
-			<li>Aggiunte traduzioni mancanti per le opzioni in italiano</li>
-			<li>Protezioni: la porta aggiuntiva viene visualizzata correttamente dopo la descrizione</li>
+			<li><i>Customer Request n°</i> non appare se non è valorizzato il campo</li>
+			<li>per i prodotti diversi dai robot, se il prezzo è 0 compare scritto Incl.</li>
+			<li>aggiunte traduzioni mancanti per le opzioni in italiano</li>
+			<li>modificato il riepilogo prezzi finale</li>
+			<li>protezioni: la porta aggiuntiva viene visualizzata correttamente dopo la descrizione</li>
 			<li>Etichette: attivata gestione multi selezione</li>
 			<li>Manuali: attivata gestione multi selezione con stampa prezzo</li>
-			<li>Modificato il riepilogo prezzi finale</li>
 		</ul>
 		<li>INTEGRAZIONI</li>
 		<ul>
-		<li>Le integrazioni vengono riportate anche con la revisione (appariranno dopo 1minuto)</li>
-		<li>Sistemata l'ownership dell’integrazione che impediva la visualizzazione in alcuni casi</li>
-		<li>Problemi di caricamento delle foto: utilizzare il tasto <img src="https://workrs.github.io/CPQ/Foto/foto.png"> invece del drag&drop (non utilizzare copia/incolla direttamente da Word). 
-	Se avete una foto su Word, copiatela in un programma di grafica (es. paint) e poi incollatela nell’integrazione</li>
-	</ul>
+			<li>Le integrazioni vengono riportate anche con la revisione (appariranno dopo 1minuto)</li>
+			<li>Sistemata l'ownership dell’integrazione che impediva la visualizzazione in alcuni casi</li>
+			<li>Problemi di caricamento delle foto: utilizzare il tasto <img src="https://workrs.github.io/CPQ/Foto/foto.png"> invece del drag&drop (non utilizzare copia/incolla direttamente da Word). Se avete una foto su Word, copiatela in un programma di grafica (es. paint) e poi incollatela nell’integrazione</li>
+		</ul>
 	</ul>
 <br>
 <br>
@@ -223,37 +223,37 @@ Attrezzaggio IML: aggiunte descrizioni
 	<li>CL2-1HS, CL2-2HS, CL2-3HS, MC2-3HS: aggiunti con le relative descrizioni e prezzi</li>
 	<li>Pneumatica del sistema di presa:</li>
 	<ul>
-		<li>Rinominata categoria per il kit valvole aggiuntivo al polso</li>
-		<li>Il kit valvole aggiuntivo al polso è per uso esclusivo delle linee di pressione</li>
-		<li>Le valvole diverse dalla norma (5/2 monostabile o bistabile) vanno specificate nelle Special request</li>
-		<li>Eliminato l’obbligo di selezione dello standard per dare più flessibilità nelle configurazioni speciali</li>
+		<li>rinominata categoria per il kit valvole aggiuntivo al polso</li>
+		<li>il kit valvole aggiuntivo al polso è per uso esclusivo delle linee di pressione</li>
+		<li>le valvole diverse dalla norma (5/2 monostabile o bistabile) vanno specificate nelle <i>Special request</i></li>
+		<li>eliminato l’obbligo di selezione dello standard per dare più flessibilità nelle configurazioni speciali</li>
 	</ul>
 	</ul>
 	<br>
 	<a class="correzioni">CORREZIONI & AGGIUNTE</a>
 	<ul>
-	<li>Visualizzazione corretta del <i>Total Amount</i> sul form e nelle viste del CRM; tiene già conto dello sconto</li>
-	<li>Impostato automaticamente margine per robot/accessori che rimane sovrascrivibile:</li>
+	<li>Visualizzazione corretta del <i>Total Amount</i> sul form Quote e nelle viste del CRM (tiene già conto dello sconto)</li>
+	<li>Impostato automaticamente il margine per robot/accessori che rimane sovrascrivibile:</li>
 	<ul>
 	<li>Italia: robot 25%, accessori 25%</li>
 	<li>Estero: robot 30%, accessori 15%</li>
 	</ul>
 	</ul>
 	<br>
-	<a class="esempi">PNEUMATICA DEL SISTEMA DI PRESA configurazioni speciali</a>
+	<a class="esempi">PNEUMATICA DEL SISTEMA DI PRESA <br> configurazioni speciali</a>
 	<ul>
-		<li>6 linee del vuoto o di pressione: eliminare la selezione dallo standard e utilizzare Special request</li>
+		<li>6 linee vuoto o pressione: eliminare la selezione dallo standard e utilizzare <i>Special request</i></li>
 		<li>4 vuoto + 4 pressione: aggiungere 3 linee del vuoto addizionali e aggiungere un kit da 4 (= 1 standard vuoto + 3 aggiuntive vuoto + 1 standard pressione + kit da 4) </li>
 		<li>Se servono più di 10 valvole, deselezionare tutto e utilizzare Special request</li>
 	</ul>
 	<br>
 	<a class="esempi">ROBOT FUORI STANDARD</a>
 	<p>Creare un gruppo che contiene nel titolo il nome del robot fuori standard, selezionare il modello del robot più simile al fuori standard e configurarlo.
-	Nella Special request inserire la descrizione della differenza rispetto al robot e il prezzo, es:
+	Nella <i>Special request</i> inserire la descrizione della differenza rispetto al robot e il prezzo, es:
 	<br>
 	<img src="https://workrs.github.io/CPQ/Foto/special_request.png">
 	<br>In questo modo si sommerà al prezzo di listino. 
-	Se il prezzo non è di listino, il prezzo và diviso per la % di gestione (es.)
+	<br>Se il prezzo non è di listino, il prezzo và diviso per la % di gestione (es.)
 </p>
 </BODY>
 </html>
