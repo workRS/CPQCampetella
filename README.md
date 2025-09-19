@@ -2,9 +2,9 @@
 ---------------
 
 ## Release notes
-ITALIANO https://workrs.github.io/CPQ/index.html
+ITALIANO https://workrs.github.io/CPQCampetella/index.html
 
-INGLESE  https://workrs.github.io/CPQ/english.html
+INGLESE  https://workrs.github.io/CPQCampetella/english.html
 
 
 
